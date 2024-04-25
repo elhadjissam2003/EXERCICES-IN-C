@@ -1,11 +1,11 @@
-//Convert Celsius to Fahrenheit
-#include <stdio.h>
+ #include <stdio.h>
 void conversionCToF(float debut,float fin ){
     float F=0;
     float C=0;
+    printf("C          F\n");
     for(C=debut;C<fin;C++){
             F=(C*1.8)+35;
-            printf("%fC->%fC\n",C,F);
+            printf("%-8.2f%8.2f\n",C,F);
 
 
 
