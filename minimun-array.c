@@ -17,9 +17,9 @@ int main() {
 //  #include <stdio.h>
 
 
-// int min_arr(int arr[]){
+// int min_arr(int arr[],int N){
 //     int min=arr[0];
-//     for(int i=0;i<6;i++){
+//     for(int i=0;i<N;i++){
 //         printf("Checking myArray[%d]=%d\n",i,arr[i]);
 //            if(arr[i]<=min){
 //             min=arr[i];
@@ -33,7 +33,7 @@ int main() {
 //     int myArray[]={1,2,1,4,18,100};
 
 
-//     printf("Min=%d",min_arr(myArray));
+//     printf("Min=%d",min_arr(myArray,6));
 //      return 0;
 // }
 
